@@ -37,6 +37,20 @@ nav {
     font-size: 18px;
 }
 
+.link-effect::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.3s;
+}
+
+.link-effect:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}
+
 .burger {
     display: none;
     cursor: pointer;
