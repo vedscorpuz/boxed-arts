@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -92,11 +93,38 @@ nav {
 }
 
 .about h1 {
+    position: absolute;
+    font-size: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Open Sans', ;
+}
 
+.about-team {
+    display: flex;
+    position: absolute;
+    float: right;
+    width: 800px;
+    bottom: 10%;
+    right: 10%;
 }
 
 .about-team img {
-    width: 250px;
+    width: 225px;
+    margin: 25px;
+}
+
+.about-info {
+    position: absolute;
+    width: 800px;
+    top: 10%;
+    right: 10%;
+}
+
+.about-info h2 {
+    font-size: 35px;
+    font-family: 'Quicksand', ;
+    font-style: italic;
 }
 
 @media screen and (max-width: 1024px) {
