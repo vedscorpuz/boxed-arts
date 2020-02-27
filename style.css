@@ -152,6 +152,11 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .nav-links {
         position: absolute;
         right: 0px;
@@ -206,11 +211,51 @@ nav {
         margin-left: -75%;
         margin-right: -20%;
     }
+
+
+    .about-team {
+        bottom: 10px;
+        width: 85%;
+    }
+
+    .about-team img {
+        width: 180px;
+    }
+
+    .about-info {
+        top: 45%;
+        width: 90%;
+        right: 5%;
+        align-items: center;
+    }
+
+    .about-info h2 {
+        font-size: 200%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     #intro-video {
         margin-left: -95%;
         margin-right: -5%;
+    }
+
+    .about {
+        height: 225vh;
+    }
+
+    .about-info {
+        top: 30%;
+    }
+
+    .about-team {
+        display: flex;
+        flex-direction: column;
+        left: 25%;
+    }
+
+    .about-team img {
+        width: 230px;
+        margin: 50px;
     }
 }
