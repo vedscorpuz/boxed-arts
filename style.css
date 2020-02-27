@@ -93,7 +93,7 @@ nav {
 
 .about h1 {
     position: absolute;
-    font-size: 150px;
+    font-size: 110px;
     margin-top: 20px;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
@@ -115,6 +115,7 @@ nav {
 
 .about-info {
     position: absolute;
+    display: flex;
     width: 800px;
     top: 10%;
     right: 10%;
@@ -124,6 +125,7 @@ nav {
     font-size: 35px;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 @media screen and (max-width: 1024px) {
@@ -135,13 +137,21 @@ nav {
         margin-left: -50%;
         margin-right: -20%;
     }
+
+    .about {
+        height: 150vh;
+    }
+
+    .about-team {
+        bottom: 10px;
+    }
+
+    .about-info {
+        top: 45%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        overflow: hidden;
-    }
-
     .nav-links {
         position: absolute;
         right: 0px;
